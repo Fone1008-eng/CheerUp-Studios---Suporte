@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suporte - CheerUp Studios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <h1>CheerUp Studios - Suporte</h1>
+  </nav>
+
+  <div class="container">
+    <h2>Suporte</h2>
+    <form id="supportForm">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+
+      <label for="age">Idade:</label>
+      <input type="number" id="age" placeholder="Sua idade" required>
+
+      <label for="device">Dispositivo:</label>
+      <select id="device" required>
+        <option value="" disabled selected>Selecione seu dispositivo</option>
+        <option value="Celular">Celular</option>
+        <option value="Notebook">Notebook</option>
+        <option value="PC">PC</option>
+        <option value="Console">Console</option>
+      </select>
+
+      <label for="confirmDevice">Confirmar Dispositivo:</label>
+      <select id="confirmDevice" required>
+        <option value="" disabled selected>Selecione novamente</option>
+        <option value="Celular">Celular</option>
+        <option value="Notebook">Notebook</option>
+        <option value="PC">PC</option>
+        <option value="Console">Console</option>
+      </select>
+
+      <label for="occurrence">Ocorrência:</label>
+      <select id="occurrence" required>
+        <option value="" disabled selected>Selecione a ocorrência</option>
+        <option value="Compra Inválida/Insucedida">Compra Inválida/Insucedida</option>
+        <option value="Má otimização">Má otimização</option>
+        <option value="BUGS Técnicos">BUGS Técnicos</option>
+        <option value="Denúncia">Denúncia</option>
+        <option value="Outros">Outros</option>
+      </select>
+
+      <label for="motive">Motivo:</label>
+      <textarea id="motive" placeholder="Descreva o que está ocorrendo" maxlength="4000" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="feedback" class="hidden">Agradecemos seu suporte, por favor, aguarde o seu atendimento.</div>
+  </div>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+    </h1>
+</body>
+</html>
